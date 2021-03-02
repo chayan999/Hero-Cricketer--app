@@ -1,0 +1,17 @@
+.welcome h1{
+    background: gray;
+    height: 90px;
+    color: beige;
+}
+.background{
+    background-color: cadetblue;
+}
+.playerContainer{
+    display: flex;
+}
+.player-information-container{
+    width: 55%;
+}
+.player-summary-container{
+    width: 35%;
+}
