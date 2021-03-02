@@ -17,10 +17,10 @@ const PlayerSamary = (props) => {
             <h4>Team Member: {selectPlayer.length}</h4>
 
             <ol className="text-center">
-                {selectPlayer.map(play => <li > <span className="font-weight-bold"> Player-</span> {play.name}.<br /> <span className="font-weight-bold">Salary:</span> {play.salary}
+                {selectPlayer.map(play => <li > <span className="font-weight-bold"> Player-</span> {play.name}.<br /> <span className="font-weight-bold">Salary : $</span> {play.salary}
                 </li>)}
             </ol>
-            <h4>Totle Salary: {totle} </h4>
+            <h4>Totle Salary : $ {totle} </h4>
         </div>
     );
 };

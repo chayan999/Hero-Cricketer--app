@@ -13,7 +13,7 @@ const Player = (props) => {
                         <div class="card-body">
                             <h4 class="card-title"> Name : {name} </h4>
                             <h5>Counter : {country}</h5>
-                            <p class="card-text"> salary : {salary} </p>
+                            <p class="card-text"> salary : $ {salary} </p>
                             <button className="btn btn-success"
                                 onClick={() => props.hendelAddPlayer(props.players)}>
                                 Add Player <FontAwesomeIcon icon={faPlus} /></button>
